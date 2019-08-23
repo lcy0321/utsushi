@@ -140,6 +140,7 @@ protected:
   qi::rule< Iterator, quad () > stat_sep_rule_;
   qi::rule< Iterator, quad () > stat_bat_rule_;
   qi::rule< Iterator, quad () > stat_csl_rule_;
+  qi::rule< Iterator, quad () > stat_gls_rule_;
 
   qi::rule< Iterator, quad () > stat_psz_part_token_;
   qi::rule< Iterator, quad () > stat_psz_size_token_;

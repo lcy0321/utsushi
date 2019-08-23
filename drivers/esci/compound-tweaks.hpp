@@ -132,6 +132,9 @@ DERIVED_COMPOUND_(compound_scanner, EPM5xxT,
 DERIVED_COMPOUND_(compound_scanner, EWM7xxTR,
                   void configure ();
 );
+DERIVED_COMPOUND_(compound_scanner, ET_16xxx,
+                  void configure ();
+);
 }       // namespace esci
 }       // namespace _drv_
 }       // namespace utsushi

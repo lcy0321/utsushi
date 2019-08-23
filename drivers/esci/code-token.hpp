@@ -990,6 +990,7 @@ namespace status {
   const quad SEP  = CODE_TOKEN (NUMBER , UPPER_S, UPPER_E, UPPER_P);
   const quad BAT  = CODE_TOKEN (NUMBER , UPPER_B, UPPER_A, UPPER_T);
   const quad CSL  = CODE_TOKEN (NUMBER , UPPER_C, UPPER_S, UPPER_L);
+  const quad GLS  = CODE_TOKEN (NUMBER , UPPER_G, UPPER_L, UPPER_S);
 
   //! Detected media sizes
   /*! The detectable media sizes expand on those from the media_value
@@ -1105,6 +1106,13 @@ namespace status {
     const quad OFF  = CODE_TOKEN (UPPER_O, UPPER_F, UPPER_F, SPACE  );
 
   }   // namespace csl
+
+  namespace gls {
+
+    const quad DIRT = CODE_TOKEN (UPPER_D, UPPER_I, UPPER_R, UPPER_T);
+    const quad INVD = CODE_TOKEN (UPPER_I, UPPER_N, UPPER_V, UPPER_D);
+
+  }
 
 }     // namespace status
 

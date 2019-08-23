@@ -24,7 +24,7 @@ dnl  Process this file with autoconf to make a configure file.
 dnl  preamble
 
 AC_PREREQ(2.62)
-AC_INIT([Utsushi], [0.57.0-m4_esyscmd_s([git describe --always])],
+AC_INIT([Utsushi], [0.59.2-m4_esyscmd_s([git describe --always])],
         [linux-printer@epson.jp],
         [utsushi])
 
