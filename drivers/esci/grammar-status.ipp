@@ -63,6 +63,7 @@ basic_grammar_status< Iterator >::basic_grammar_status ()
      ^  (token_(SEP) > stat_sep_rule_)
      ^  (token_(BAT) > stat_bat_rule_)
      ^  (token_(CSL) > stat_csl_rule_)
+     ^  (token_(GLS) > stat_gls_rule_)
      )
     > qi::eoi
     ;
@@ -98,6 +99,13 @@ basic_grammar_status< Iterator >::basic_grammar_status ()
   stat_csl_rule_ %=
     &(  token_(csl::ON)
       | token_(csl::OFF)
+      )
+    > token_
+    ;
+  
+  stat_gls_rule_ %=
+    &(  token_(gls::DIRT)
+      | token_(gls::INVD)
       )
     > token_
     ;
