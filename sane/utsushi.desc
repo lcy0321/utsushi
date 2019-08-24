@@ -934,6 +934,18 @@
 :status    :good
 :comment   "L61x0"
 
+:model     "PID 1167"
+:interface "USB"
+:usbid     "0x04b8" "0x1167"
+:status    :good
+:comment   "ET-16xxx"
+
+:model     "PID 1168"
+:interface "USB"
+:usbid     "0x04b8" "0x1168"
+:status    :good
+:comment   "ET-16xxx"
+
 :model     "PID 1169"
 :interface "USB"
 :usbid     "0x04b8" "0x1169"
@@ -956,3 +968,21 @@
 :usbid     "0x04b8" "0x116e"
 :status    :good
 :comment   "EWM7xxTR"
+
+:model     "PID 116F"
+:interface "USB"
+:usbid     "0x04b8" "0x116f"
+:status    :good
+:comment   "ET-16xxx"
+
+:model     "PID 1170"
+:interface "USB"
+:usbid     "0x04b8" "0x1170"
+:status    :good
+:comment   "ET-16xxx"
+
+:model     "PID 1177"
+:interface "USB"
+:usbid     "0x04b8" "0x1177"
+:status    :good
+:comment   "ET-16xxx"
