@@ -69,7 +69,7 @@
 :interface "USB"
 :status    :good
 
-:model     "DS-535"
+:model     "DS-535H"
 :interface "USB"
 :usbid     "0x04b8" "0x017a"
 :status    :good
