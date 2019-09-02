@@ -227,6 +227,14 @@ BUILDING/INSTALLING FROM SOURCE
 DEVELOPER NOTES
 ===============
 
+  RELATION WITH EPSON'S UPSTREAM CODE
+  -----------------------------------
+
+    This project sort of pulls from upstream. Releases are tracked in
+    the [imagescan](https://gitlab.com/utsushi/imagescan) project of
+    the Utsushi group. This project pulls from those. Patches and
+    changes get applied. Changes are not really pushed upstream.
+
   DIRECTORY STRUCTURE
   -------------------
     The build infrastructure relies on a number of 'upstream/' files
