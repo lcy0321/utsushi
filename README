@@ -230,10 +230,12 @@ DEVELOPER NOTES
   RELATION WITH EPSON'S UPSTREAM CODE
   -----------------------------------
 
-    This project sort of pulls from upstream. Releases are tracked in
-    the [imagescan](https://gitlab.com/utsushi/imagescan) project of
-    the Utsushi group. This project pulls from those. Patches and
-    changes get applied. Changes are not really pushed upstream.
+    This project sort of pulls from upstream.  Upstream releases are
+    tracked in the imagescan[2] project of the Utsushi group.  This
+    project pulls from the imagescan project.  Patches and changes
+    get applied here but changes are not really pushed upstream.
+
+    [2]: https://gitlab.com/utsushi/imagescan
 
   DIRECTORY STRUCTURE
   -------------------
