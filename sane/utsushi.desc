@@ -192,6 +192,11 @@
 :usbid     "0x04b8" "0x1106"
 :status    :good
 
+:model     "ET-3750"
+:interface "USB"
+:usbid     "0x04b8" "0x1130"
+:status    :good
+
 :model     "ET-4500"
 :interface "USB"
 :usbid     "0x04b8" "0x1107"
