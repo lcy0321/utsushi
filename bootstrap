@@ -175,32 +175,12 @@ if test -n "$patch"; then
 fi
 
 #  Grab a convenient VC utility (but don't acquire a gnulib dependency)
-#  Note, the svn fixup should only be needed on our aging build target
-#  platform.
 
 script=vc-list-files
 files=`gnulib-tool --extract-filelist $script 2>/dev/null | sed "/^$/q"`
 for file in $files; do
     gnulib-tool --copy $file upstream/tools/$script
 done
-
-if ! grep .svn upstream/tools/$script >/dev/null 2>&1; then
-    version=`upstream/tools/$script --version \
-        | awk '/vc-list-files/{ print $2 }'`
-    if test "$version" = "2009-07-21.16"; then
-        sed -i "/^else/i\\
-elif test -d .svn; then\\
-  eval exec svn list -R '\"\$dir\"' \$postprocess
-" upstream/tools/$script
-    else
-    cat <<EOF >&2
-Your 'vc-list-files' utility does not support Subversion checkouts.
-This may be a problem when running the test suite and making source
-archives.  Please install the latest version of 'gnulib' to acquire
-Subversion support for 'vc-list-files'.
-EOF
-    fi
-fi
 
 #  Sanity check the result to catch the most common errors that are
 #  not diagnosed by autoreconf itself (or could use some extra help
