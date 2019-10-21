@@ -51,10 +51,21 @@ case "$engine" in
     */tesseract|tesseract)
 
         #  Tesseract 3.03 outputs the results we want to standard
-        #  error; Tesseract 3.04 dumps it on standard output.  We
-        #  want it on the latter.
+        #  error; Tesseract 3.04 dumps it on standard output.  So
+        #  do later versions.  We want it on the latter.
+        #  Command-line options changed in 3.05.00.
 
-        $engine - - -psm 0 -l osd 2>&1
+        version=$($engine --version 2>&1 | sed -n 's/.*tesseract *//p')
+
+        case "$version" in
+            3.0[34].* )
+                $engine - - -psm 0 -l osd 2>&1
+                ;;
+
+            3.05.* | [45].* )
+                $engine - - --psm 0 -l osd 2>&1
+                ;;
+        esac
         ;;
 
     */ocr-engine-getrotate)
