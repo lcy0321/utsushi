@@ -186,7 +186,7 @@ done
 #  not diagnosed by autoreconf itself (or could use some extra help
 #  explaining what to do in those cases).
 
-if grep AX_BOOST configure >/dev/null 2>&1; then
+if grep ^AX_BOOST_BASE configure >/dev/null 2>&1; then
     cat <<EOF
 It seems 'aclocal' could not find the autoconf macros for the Boost
 library.  These macros are available in the 'autoconf-archive'.  If
