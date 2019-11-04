@@ -116,6 +116,7 @@ archive:
 image-branch:
   stage: image
   variables:
+    DOCKER_TLS_CERTDIR: "/certs"
     TAG_NAME: "$CI_REGISTRY_IMAGE/sdk:$CI_COMMIT_REF_SLUG"
   <<: *image-build
   only:
@@ -124,6 +125,7 @@ image-branch:
 image-latest:
   stage: image-latest
   variables:
+    DOCKER_TLS_CERTDIR: "/certs"
     TAG_NAME: "$CI_REGISTRY_IMAGE/sdk"
   <<: *image-build
   only:
