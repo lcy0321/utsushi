@@ -968,6 +968,18 @@
 :usbid     "0x04b8" "0x116b"
 :status    :good
 
+:model     "PID 116C"
+:interface "USB"
+:usbid     "0x04b8" "0x116c"
+:status    :good
+:comment   "WFC8xxR"
+
+:model     "PID 116D"
+:interface "USB"
+:usbid     "0x04b8" "0x116d"
+:status    :good
+:comment   "WFC8xxR"
+
 :model     "PID 116E"
 :interface "USB"
 :usbid     "0x04b8" "0x116e"
@@ -985,6 +997,24 @@
 :usbid     "0x04b8" "0x1170"
 :status    :good
 :comment   "ET-16xxx"
+
+:model     "PID 1174"
+:interface "USB"
+:usbid     "0x04b8" "0x1174"
+:status    :good
+:comment   "ET-58xx"
+
+:model     "PID 1175"
+:interface "USB"
+:usbid     "0x04b8" "0x1175"
+:status    :good
+:comment   "ET-58xx"
+
+:model     "PID 1176"
+:interface "USB"
+:usbid     "0x04b8" "0x1176"
+:status    :good
+:comment   "ET-58xx"
 
 :model     "PID 1177"
 :interface "USB"
