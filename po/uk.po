@@ -1,0 +1,591 @@
+# Ukrainian translations for utsushi package
+# Переклад українською для пакунка utsushi.
+# Copyright (C) 2019 SEIKO EPSON CORPORATION
+# This file is distributed under the same license as the utsushi package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: utsushi 0.61.0\n"
+"Report-Msgid-Bugs-To: linux-printer@epson.jp\n"
+"POT-Creation-Date: 2019-12-02 16:54+0200\n"
+"PO-Revision-Date: 2019-12-02 17:19+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 20.03.70\n"
+
+#: drivers/combo.cpp:234 drivers/esci/compound-scanner.cpp:2587
+#: drivers/esci/compound-scanner.cpp:2622
+#: drivers/esci/compound-scanner.cpp:2657
+#: drivers/esci/compound-scanner.cpp:2692
+#: drivers/esci/extended-scanner.cpp:1265
+#: drivers/esci/extended-scanner.cpp:1288
+msgid "Resolution"
+msgstr "Роздільність"
+
+#: drivers/combo.cpp:242 drivers/esci/compound-scanner.cpp:583
+#: drivers/esci/extended-scanner.cpp:443
+msgid "Transfer Format"
+msgstr "Формат передавання"
+
+#: drivers/esci/compound-scanner.cpp:356
+msgid "Loading completed"
+msgstr "Завантаження завершено"
+
+#: drivers/esci/compound-scanner.cpp:357
+msgid "Ejecting completed"
+msgstr "Вилучення завершено"
+
+#: drivers/esci/compound-scanner.cpp:381
+msgid "Cleaning is complete."
+msgstr "Чищення завершено."
+
+#: drivers/esci/compound-scanner.cpp:382
+msgid "Calibration is complete."
+msgstr "Калібрування завершено."
+
+#: drivers/esci/compound-scanner.cpp:390 drivers/esci/compound-scanner.cpp:415
+msgid "Cleaning is failed."
+msgstr "Помилка чищення."
+
+#: drivers/esci/compound-scanner.cpp:391 drivers/esci/compound-scanner.cpp:417
+msgid "Calibration is failed."
+msgstr "Помилка калібрування."
+
+#: drivers/esci/compound-scanner.cpp:411
+msgid "Loading failed"
+msgstr "Не вдалося завантажити"
+
+#: drivers/esci/compound-scanner.cpp:413
+msgid "Ejecting failed"
+msgstr "Помилка вилучення"
+
+#: drivers/esci/compound-scanner.cpp:419
+msgid "Maintenance failed"
+msgstr "Помилка під час обслуговування"
+
+#: drivers/esci/compound-scanner.cpp:543 drivers/esci/extended-scanner.cpp:1223
+msgid "Document Source"
+msgstr "Джерело документа"
+
+#: drivers/esci/compound-scanner.cpp:557 drivers/esci/extended-scanner.cpp:331
+#: gtkmm/dialog.cpp:798 sane/handle.cpp:592 src/scan-cli.cpp:668
+msgid "Image Type"
+msgstr "Тип зображення"
+
+#: drivers/esci/compound-scanner.cpp:570
+msgid "Dropout"
+msgstr "Маска"
+
+#: drivers/esci/compound-scanner.cpp:611 drivers/esci/extended-scanner.cpp:394
+#: filters/magick.cpp:183 filters/threshold.cpp:49
+msgid "Threshold"
+msgstr "Поріг"
+
+#: drivers/esci/compound-scanner.cpp:743
+msgid "Calibration"
+msgstr "Калібрування"
+
+#: drivers/esci/compound-scanner.cpp:744
+msgid "Calibrating..."
+msgstr "Калібруємо…"
+
+#: drivers/esci/compound-scanner.cpp:751
+msgid "Cleaning"
+msgstr "Очищення"
+
+#: drivers/esci/compound-scanner.cpp:752
+msgid "Cleaning..."
+msgstr "Очищення…"
+
+#: drivers/esci/compound-scanner.cpp:759
+msgid "Eject"
+msgstr "Виштовхнути"
+
+#: drivers/esci/compound-scanner.cpp:760
+msgid "Ejecting ..."
+msgstr "Вилучення…"
+
+#: drivers/esci/compound-scanner.cpp:767
+msgid "Load"
+msgstr "Завантажити"
+
+#: drivers/esci/compound-scanner.cpp:768
+msgid "Loading..."
+msgstr "Завантаження…"
+
+#: drivers/esci/compound-scanner.cpp:1729
+#: drivers/esci/compound-scanner.cpp:2721
+#: drivers/esci/extended-scanner.cpp:1312
+msgid "Manual"
+msgstr "Вручну"
+
+#: drivers/esci/compound-scanner.cpp:1730
+#: drivers/esci/compound-scanner.cpp:2722
+#: drivers/esci/extended-scanner.cpp:1313
+msgid "Maximum"
+msgstr "Максимум"
+
+#: drivers/esci/compound-scanner.cpp:1737
+#: drivers/esci/compound-scanner.cpp:2724
+#: drivers/esci/compound-scanner.cpp:2791
+#: drivers/esci/extended-scanner.cpp:1315
+msgid "Auto Detect"
+msgstr "Автовизначення"
+
+#: drivers/esci/compound-scanner.cpp:2424
+#: drivers/esci/extended-scanner.cpp:1185
+msgid "Duplex"
+msgstr "Двобічна"
+
+#: drivers/esci/compound-scanner.cpp:2448
+msgid "Detect Double Feed"
+msgstr "Виявляти подвійне подавання"
+
+#: drivers/esci/compound-scanner.cpp:2459
+msgid "Long Paper Mode"
+msgstr "Режим довгого паперу"
+
+#: drivers/esci/compound-scanner.cpp:2640
+#: drivers/esci/extended-scanner.cpp:1280
+msgid "Enable Resampling"
+msgstr "Увімкнути передискретизацію"
+
+#: drivers/esci/compound-scanner.cpp:2731
+#: drivers/esci/extended-scanner.cpp:1322
+msgid "Scan Area"
+msgstr "Сканувати область"
+
+#: drivers/esci/compound-scanner.cpp:2739
+#: drivers/esci/extended-scanner.cpp:1330
+msgid "Top Left X"
+msgstr "Верхня ліва координата за X"
+
+#: drivers/esci/compound-scanner.cpp:2747
+#: drivers/esci/extended-scanner.cpp:1346
+msgid "Top Left Y"
+msgstr "Верхня ліва координата за Y"
+
+#: drivers/esci/compound-scanner.cpp:2755
+#: drivers/esci/extended-scanner.cpp:1338
+msgid "Bottom Right X"
+msgstr "Нижня права координата за X"
+
+#: drivers/esci/compound-scanner.cpp:2763
+#: drivers/esci/extended-scanner.cpp:1354
+msgid "Bottom Right Y"
+msgstr "Нижня права координата за Y"
+
+#: drivers/esci/compound-scanner.cpp:2799
+msgid "Crop"
+msgstr "Обрізати"
+
+#: drivers/esci/compound-scanner.cpp:2835 gtkmm/dialog.cpp:778
+#: sane/handle.cpp:545 src/scan-cli.cpp:644
+msgid "Deskew"
+msgstr "Усувати нахил"
+
+#: drivers/esci/compound-scanner.cpp:3268
+msgid ""
+"Authentication is required.\n"
+"Unfortunately, this version of the driver does not support authentication "
+"yet."
+msgstr ""
+"Користувач має пройти розпізнавання.\n"
+"На жаль, у цій версії драйвера ще не передбачено підтримки розпізнавання"
+" користувачів."
+
+#: drivers/esci/compound-scanner.cpp:3362 drivers/esci/extended-scanner.cpp:206
+#: sane/backend.cpp:288
+msgid ""
+"The Automatic Document Feeder is open.\n"
+"Please close it."
+msgstr ""
+"Лоток автоматичної подачі документів відчинено.\n"
+"Будь ласка, зачиніть його."
+
+#: drivers/esci/compound-scanner.cpp:3365 drivers/esci/extended-scanner.cpp:201
+#: sane/backend.cpp:274
+msgid ""
+"A paper jam occurred.\n"
+"Open the Automatic Document Feeder and remove any paper.\n"
+"If there are any documents loaded in the ADF, remove them and load them "
+"again."
+msgstr ""
+"Зам'ято аркуш паперу.\n"
+"Відчиніть лоток автоматичної подачі документів і витягніть зам'ятий аркуш.\n"
+"Якщо до лотка автоматичної подачі документів вставлено якісь документи,"
+" вийміть їх і вставте знову."
+
+#: drivers/esci/compound-scanner.cpp:3370 drivers/esci/extended-scanner.cpp:198
+#: sane/backend.cpp:269
+msgid "Please load the document(s) into the Automatic Document Feeder."
+msgstr "Будь ласка, вставте документ до лотка автоматичної подачі документів."
+
+#: drivers/esci/compound-scanner.cpp:3373 drivers/esci/extended-scanner.cpp:209
+#: sane/backend.cpp:281
+msgid ""
+"A multi page feed occurred in the auto document feeder. Open the cover, "
+"remove the documents, and then try again. If documents remain on the tray, "
+"remove them and then reload them."
+msgstr ""
+"Засобом автоматичного подавання документів втягнуто одразу декілька аркушів."
+" Відкрийте кришку, витягніть документи і повторіть спробу. Якщо у лотку"
+" лишаються документи, вийміть їх і повторіть процедуру завантаження."
+
+#: drivers/esci/compound.cpp:629
+msgid ""
+"The device is in use.  Please wait until the device becomes available, then "
+"try again."
+msgstr ""
+"Пристрій використовує інша програма. Будь ласка, зачекайте на вивільнення"
+" пристрою і повторіть спробу."
+
+#: drivers/esci/exception.hpp:94
+msgid "device busy"
+msgstr "пристрій зайнято"
+
+#: drivers/esci/extended-scanner.cpp:121
+#: drivers/esci/grammar-capabilities.cpp:260
+#: drivers/esci/grammar-capabilities.cpp:424
+msgid "None"
+msgstr "Немає"
+
+#: drivers/esci/extended-scanner.cpp:326
+#: drivers/esci/grammar-capabilities.cpp:689 gtkmm/dialog.cpp:794
+#: sane/handle.cpp:588 src/scan-cli.cpp:664
+msgid "Monochrome"
+msgstr "Чорно-біле"
+
+#: drivers/esci/extended-scanner.cpp:327
+#: drivers/esci/grammar-capabilities.cpp:690 gtkmm/dialog.cpp:795
+#: sane/handle.cpp:589 src/scan-cli.cpp:665
+msgid "Grayscale"
+msgstr "Відтінки сірого"
+
+#: drivers/esci/extended-scanner.cpp:328
+#: drivers/esci/grammar-capabilities.cpp:687 drivers/esci/scanner.cpp:425
+#: gtkmm/dialog.cpp:796 sane/handle.cpp:590 src/scan-cli.cpp:666
+msgid "Color"
+msgstr "Кольорове"
+
+#: drivers/esci/extended-scanner.cpp:1172
+#: drivers/esci/grammar-capabilities.cpp:330
+#: drivers/esci/grammar-capabilities.cpp:340
+msgid "Document Table"
+msgstr "Планшет для документів"
+
+#: drivers/esci/extended-scanner.cpp:1178
+#: drivers/esci/grammar-capabilities.cpp:328
+#: drivers/esci/grammar-capabilities.cpp:338
+msgid "ADF"
+msgstr "АПД"
+
+#: drivers/esci/extended-scanner.cpp:1202
+#: drivers/esci/grammar-capabilities.cpp:329
+#: drivers/esci/grammar-capabilities.cpp:339
+msgid "Transparency Unit"
+msgstr "Модуль для слайдів"
+
+#: drivers/esci/grammar-capabilities.cpp:269
+msgid "White"
+msgstr "Білий"
+
+#: drivers/esci/grammar-capabilities.cpp:270
+msgid "Black"
+msgstr "Чорний"
+
+#: drivers/esci/grammar-capabilities.cpp:369
+#: drivers/esci/grammar-capabilities.cpp:384
+msgid "Off"
+msgstr "○"
+
+#: drivers/esci/grammar-capabilities.cpp:370
+msgid "Normal"
+msgstr "Звичайний"
+
+#: drivers/esci/grammar-capabilities.cpp:371
+msgid "Thin"
+msgstr "Тонкий"
+
+#: drivers/esci/grammar-capabilities.cpp:385
+msgid "On"
+msgstr "❙"
+
+#: drivers/esci/grammar-capabilities.cpp:386
+msgid "Paper Protection"
+msgstr "Захист паперу"
+
+#: drivers/esci/grammar-capabilities.cpp:474
+msgid "Red"
+msgstr "Червоний"
+
+#: drivers/esci/grammar-capabilities.cpp:475
+msgid "Green"
+msgstr "Зелений"
+
+#: drivers/esci/grammar-capabilities.cpp:476
+msgid "Blue"
+msgstr "Синій"
+
+#: drivers/esci/scanner.cpp:422
+msgid "ADF - Double-sided"
+msgstr "ADF — двобічний"
+
+#: drivers/esci/scanner.cpp:423
+msgid "ADF - Single-sided"
+msgstr "ADF — однобічний"
+
+#: drivers/esci/scanner.cpp:424
+msgid "Black & White"
+msgstr "Чорно-білий"
+
+#: drivers/esci/scanner.cpp:426
+msgid "Mode"
+msgstr "Режим"
+
+#: drivers/esci/scanner.cpp:427
+msgid "Text/Line Art"
+msgstr "Текст/Штрихова графіка"
+
+#: filters/image-skip.cpp:67
+msgid "Skip Blank Pages Settings"
+msgstr "Параметри пропускання порожніх сторінок"
+
+#: filters/magick.cpp:190
+msgid "Brightness"
+msgstr "Яскравість"
+
+#: filters/magick.cpp:198
+msgid "Contrast"
+msgstr "Контрастність"
+
+#: filters/reorient.cpp:258
+msgid "0 degrees"
+msgstr "0°"
+
+#: filters/reorient.cpp:259
+msgid "90 degrees"
+msgstr "90°"
+
+#: filters/reorient.cpp:260
+msgid "180 degrees"
+msgstr "180°"
+
+#: filters/reorient.cpp:261
+msgid "270 degrees"
+msgstr "270°"
+
+#: filters/reorient.cpp:262
+msgid "Auto"
+msgstr "Авто"
+
+#: filters/reorient.cpp:289
+msgid "Rotate"
+msgstr "Обертання"
+
+#: gtkmm/action-dialog.cpp:112 gtkmm/action-dialog.cpp:119
+#: gtkmm/dialog.glade:43
+msgid "Maintenance"
+msgstr "Обслуговування"
+
+#: gtkmm/chooser.cpp:70
+msgid "No devices found"
+msgstr "Пристроїв не виявлено"
+
+#: gtkmm/chooser.cpp:77
+msgid "Select a device"
+msgstr "Виберіть пристрій"
+
+#: gtkmm/chooser.cpp:205
+#, boost-format
+msgid ""
+"Cannot access %1%\n"
+"(%2%)\n"
+"%3%"
+msgstr ""
+"Не вдалося отримати доступ до %1%\n"
+"(%2%)\n"
+"%3%"
+
+#: gtkmm/dialog.cpp:79
+msgid "Scanning..."
+msgstr "Сканування…"
+
+#: gtkmm/dialog.cpp:80
+msgid "Canceling..."
+msgstr "Скасовуємо…"
+
+#: gtkmm/dialog.cpp:357
+msgid "Save As..."
+msgstr "Зберегти як…"
+
+#: gtkmm/dialog.cpp:359
+msgid "Untitled"
+msgstr "Без назви"
+
+#: gtkmm/dialog.cpp:658 src/scan-cli.cpp:1135
+#, boost-format
+msgid "conversion from %1% to %2% is not supported"
+msgstr "Підтримки перетворення з %1% до %2% не передбачено"
+
+#: gtkmm/dialog.glade:28 gtkmm/dialog.glade:366
+msgid "Scan"
+msgstr "Сканувати"
+
+#: gtkmm/dialog.glade:53
+msgid "Details:"
+msgstr "Подробиці:"
+
+#: gtkmm/dialog.glade:90
+msgid "Preview"
+msgstr "Перегляд"
+
+#: gtkmm/dialog.glade:97
+msgid "Zoom In"
+msgstr "Збільшити"
+
+#: gtkmm/dialog.glade:104
+msgid "Zoom Out"
+msgstr "Зменшити"
+
+#: gtkmm/dialog.glade:111
+msgid "Actual Size"
+msgstr "Фактичний розмір"
+
+#: gtkmm/dialog.glade:118
+msgid "Zoom to fit"
+msgstr "Підібрати за розмірами"
+
+#: gtkmm/dialog.glade:188
+msgid "Scanner:"
+msgstr "Сканер:"
+
+#: gtkmm/editor.cpp:460
+msgid "Other"
+msgstr "Інше"
+
+#: gtkmm/editor.cpp:682
+msgid "Restoring previous value"
+msgstr "Відновлення попереднього значення"
+
+#: gtkmm/editor.cpp:685
+msgid "The selected combination of values is not supported."
+msgstr "Підтримки вибраної комбінації значень не передбачено."
+
+#: gtkmm/file-chooser.cpp:262
+msgid "Unsupported file format."
+msgstr "Підтримки цього формату файлів не передбачено."
+
+#: gtkmm/file-chooser.cpp:266
+#, boost-format
+msgid ""
+"The '%1%' file extension is not associated with a supported file format.  "
+"Please select a file format or use one of the known file extensions."
+msgstr ""
+"Суфікс назв файлів «%1%» не пов'язано із підтримуваним форматом файлів. Будь"
+" ласка, виберіть інший формат файлів або скористайтеся одним із відомих"
+" програмі суфіксів назв."
+
+#: gtkmm/file-chooser.cpp:286
+#, boost-format
+msgid "The %1% format does not support multiple images in a single file."
+msgstr ""
+"Специфікацією формату %1% не передбачено зберігання декількох зображено у"
+" одному файлі."
+
+#: gtkmm/file-chooser.cpp:291
+#, boost-format
+msgid ""
+"Please save to PDF or TIFF if you want a single file.  If you prefer the %1% "
+"image format, use a filename such as 'Untitled-%%3i%2%'."
+msgstr ""
+"Будь ласка, збережіть дані до формату PDF або TIFF, якщо вам потрібен один"
+" файл із декількома зображеннями. Якщо ви хочете отримати дані у форматі %1%,"
+" скористайтеся іншою назвою файла, наприклад «Без_назви-%%3i%2%»."
+
+#: gtkmm/file-chooser.cpp:315
+#, boost-format
+msgid ""
+"The name \"%1%\" already exists.\n"
+"OK to overwrite this name using the new settings?"
+msgstr ""
+"Файл з назвою «%1%» вже існує.\n"
+"Хочете перезаписати його із використанням нових параметрів?"
+
+#: gtkmm/file-chooser.cpp:318
+#, boost-format
+msgid ""
+"The file already exists in \"%1%\".  Replacing it will overwrite its "
+"contents."
+msgstr ""
+"У «%1%» вже існує такий файл. Його заміна призведе до перезапису вмісту файла."
+
+#: gtkmm/file-chooser.cpp:326
+#, boost-format
+msgid "Files matching \"%1%\" may already exist.  Do you want to replace them?"
+msgstr "Файли із назвами «%1%», можливо, вже існують. Хочете замінити їх?"
+
+#: gtkmm/file-chooser.cpp:373 gtkmm/file-chooser.cpp:505
+#: gtkmm/file-chooser.cpp:636
+msgid "File Type"
+msgstr "Тип файла"
+
+#: gtkmm/file-chooser.cpp:377
+#, boost-format
+msgid "File type: %1%"
+msgstr "Тип файла: %1%"
+
+#: gtkmm/file-chooser.cpp:449
+msgid "By extension"
+msgstr "За суфіксом"
+
+#: gtkmm/file-chooser.cpp:509
+msgid "Save all images in a single file"
+msgstr "Зберегти усі зображення у одному файлі"
+
+#: gtkmm/file-chooser.cpp:545
+msgid "PDFs and Image Files"
+msgstr "файли PDF і зображень"
+
+#: gtkmm/file-chooser.cpp:551
+msgid "Image Files"
+msgstr "файли зображень"
+
+#: gtkmm/file-chooser.cpp:557
+msgid "All Files"
+msgstr "усі файли"
+
+#: lib/media.cpp:71
+msgid "Ledger"
+msgstr "Ledger"
+
+#: lib/media.cpp:72
+msgid "Legal"
+msgstr "Legal"
+
+#: lib/media.cpp:73
+msgid "Letter"
+msgstr "Letter"
+
+#: lib/media.cpp:74
+msgid "Executive"
+msgstr "Executive"
+
+#: lib/tag.cpp:74
+msgid "General"
+msgstr "Базова"
+
+#: lib/tag.cpp:79
+msgid "Geometry"
+msgstr "Геометрія"
+
+#: lib/tag.cpp:84
+msgid "Enhancement"
+msgstr "Покращення"
