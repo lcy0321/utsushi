@@ -342,6 +342,13 @@ libdrv_esci_LTX_scanner_factory (const scanner::info& info, scanner::ptr& rv)
         {
           sp = make_shared< ET_58xx > (cnx);
         }
+      else if (info.product_name () == "PID 1171"
+            || info.product_name () == "PID 1172"
+            || info.product_name () == "PID 1173"
+	          )
+        {
+          sp = make_shared< WFC2xxxx > (cnx);
+        }
       else
         {
           sp = make_shared< compound_scanner > (cnx);
