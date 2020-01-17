@@ -998,6 +998,24 @@
 :status    :good
 :comment   "ET-16xxx"
 
+:model     "PID 1171"
+:interface "USB"
+:usbid     "0x04b8" "0x1171"
+:status    :good
+:comment   "WFC2xxxx"
+
+:model     "PID 1172"
+:interface "USB"
+:usbid     "0x04b8" "0x1172"
+:status    :good
+:comment   "WFC2xxxx"
+
+:model     "PID 1173"
+:interface "USB"
+:usbid     "0x04b8" "0x1173"
+:status    :good
+:comment   "WFC2xxxx"
+
 :model     "PID 1174"
 :interface "USB"
 :usbid     "0x04b8" "0x1174"
