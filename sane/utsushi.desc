@@ -297,6 +297,11 @@
 :usbid     "0x04b8" "0x08cf"
 :status    :good
 
+:model     "WF-7720"
+:interface "USB"
+:usbid     "0x04b8" "0x112d"
+:status    :good
+
 :model     "WF-8510"
 :interface "USB"
 :usbid     "0x04b8" "0x08bc"
