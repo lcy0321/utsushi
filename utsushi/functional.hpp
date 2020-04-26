@@ -27,7 +27,7 @@
  *  C++ acquired several reference wrapper and function object related
  *  API extensions with TR1 [1] based on their Boost implementations.
  *  The API was formally added to the C++11 standard [2] and the Boost
- *  implemetations have been aligned with the standard.  The compiler
+ *  implementations have been aligned with the standard.  The compiler
  *  and standard library implementations may need some time to catch
  *  up with this.  In the mean time, we still would like to use those
  *  API additions as if it were part of the \c utsushi namespace.  We

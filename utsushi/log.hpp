@@ -289,7 +289,7 @@ public:
    *
    *  The log::quark creates two log::messages, one at construction
    *  time and another one when it is destroyed.  The messages will
-   *  include the source file name and line number that instatiated
+   *  include the source file name and line number that instantiated
    *  the log::quark as well as the encompassing function's name.
    *
    *  All you have to do is (re)compile the code of interest with \c

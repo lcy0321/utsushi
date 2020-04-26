@@ -90,7 +90,7 @@ public:
   /*! Option constraint checking uses \e untranslated string values.
    *  The controls_, however, uses translated strings if these are
    *  available.  These cannot be assigned directly as they would
-   *  needs satisfy any contraint.  This function returns the first
+   *  needs satisfy any constraint.  This function returns the first
    *  untranslated string value or \a s if there is none.
    *
    *  \todo  Make the individual controls_ responsible for this.
