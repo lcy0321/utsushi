@@ -1,5 +1,5 @@
 #  Dockerfile -- to build a canonical development environment
-#  Copyright © 2019  Olaf Meeuwissen
+#  Copyright © 2019, 2020  Olaf Meeuwissen
 #
 #  License: GPL-3.0+
 #  Author : Olaf Meeuwissen
@@ -18,7 +18,7 @@
 #  You ought to have received a copy of the GNU General Public License
 #  along with this package.  If not, see <http://www.gnu.org/licenses/>.
 
-ARG   codename=ascii
+ARG   codename=beowulf
 FROM  registry.gitlab.com/paddy-hack/devuan/slim:$codename
 LABEL maintainer="Olaf Meeuwissen <paddy-hack@member.fsf.org>" \
       projecturl="https://gitlab.com/utsushi/"
