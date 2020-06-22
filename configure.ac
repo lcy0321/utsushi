@@ -24,7 +24,7 @@ dnl  Process this file with autoconf to make a configure file.
 dnl  preamble
 
 AC_PREREQ(2.62)
-AC_INIT([Utsushi], [0.62.0],
+AC_INIT([Utsushi], [0.63.0],
         [linux-printer@epson.jp],
         [utsushi])
 
@@ -201,7 +201,7 @@ AC_DEFINE([WITH_INCLUDED_BOOST],
 
 dnl  checks for programs, modules and libraries
 
-AM_INIT_AUTOMAKE([1.11.2 gnu tar-ustar -Wall -Werror std-options nostdinc subdir-objects])
+AM_INIT_AUTOMAKE([1.11.2 gnu tar-ustar -Wall std-options nostdinc subdir-objects])
 AM_MAINTAINER_MODE([enable])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
@@ -612,8 +612,6 @@ AS_IF([test "`cd $srcdir && pwd`" != "`pwd`"],
      ['-I$(top_builddir) $(BOOST_CPPFLAGS)'])])
 
 #  Check if we can assume whether All Warnings Are Really Errors
-AS_IF([test xyes = x$ac_cv_cxx_compiler_gnu],
-  [gcc_AWARE=-Werror])
 
 AC_SUBST([AM_CXXFLAGS], ["-Wall $gcc_AWARE $code_coverage_cxxflags"])
 AC_SUBST([AM_LDFLAGS], [""])
