@@ -1049,3 +1049,21 @@
 :usbid     "0x04b8" "0x1177"
 :status    :good
 :comment   "ET-16xxx"
+
+:model     "PID 117A"
+:interface "USB"
+:usbid     "0x04b8" "0x117a"
+:status    :good
+:comment   "WF-48xx"
+
+:model     "PID 117B"
+:interface "USB"
+:usbid     "0x04b8" "0x117b"
+:status    :good
+:comment   "WF-48xx"
+
+:model     "PID 117C"
+:interface "USB"
+:usbid     "0x04b8" "0x117c"
+:status    :good
+:comment   "WF-48xx"
