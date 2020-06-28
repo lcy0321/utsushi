@@ -48,6 +48,7 @@ libutsushi_gtkmm_la_SOURCES += preview.hpp
 libutsushi_gtkmm_la_SOURCES += pump.cpp
 libutsushi_gtkmm_la_SOURCES += pump.hpp
 
+AM_CPPFLAGS += -DGLIB_DISABLE_DEPRECATION_WARNINGS
 AM_CXXFLAGS += $(LIBGTKMM_CFLAGS)
 AM_LDFLAGS  += $(BOOST_LDFLAGS)
 

@@ -52,6 +52,7 @@ LDADD += ../connexions/libcnx-hexdump.la
 if with_gtkmm
 pkglibexec_PROGRAMS += scan-gtkmm
 scan_gtkmm_CPPFLAGS  = $(AM_CPPFLAGS)
+scan_gtkmm_CPPFLAGS += -DGLIB_DISABLE_DEPRECATION_WARNINGS
 scan_gtkmm_CXXFLAGS  = $(AM_CXXFLAGS)
 scan_gtkmm_CXXFLAGS += $(LIBGTKMM_CFLAGS)
 scan_gtkmm_LDFLAGS   = $(AM_LDFLAGS)
