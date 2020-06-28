@@ -1,6 +1,6 @@
 #  .gitignore -- patterns for automatically generated and/or updated stuff
 #  Copyright (C) 2015  SEIKO EPSON CORPORATION
-#  Copyright (C) 2013-2015, 2017  Olaf Meeuwissen
+#  Copyright (C) 2013-2015, 2017, 2020  Olaf Meeuwissen
 #
 #  License: GPL-3.0+
 #  Author : Olaf Meeuwissen
@@ -94,6 +94,7 @@ test-suite.log
 /drivers/esci/data/DS-320.dat
 /drivers/esci/data/DS-520.dat
 /drivers/esci/data/DS-535.dat
+/drivers/esci/data/DS-535H.dat
 /drivers/esci/data/DS-560.dat
 /drivers/esci/data/DS-570W.dat
 /drivers/esci/data/DS-575W.dat
