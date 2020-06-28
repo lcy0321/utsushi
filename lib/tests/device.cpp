@@ -1,5 +1,6 @@
 //  device.cpp -- unit tests for the utsushi::device API
 //  Copyright (C) 2012, 2015  SEIKO EPSON CORPORATION
+//  Copyright (C) 2020  Olaf Meeuwissen
 //
 //  License: GPL-3.0+
 //  Author : EPSON AVASYS CORPORATION
@@ -25,7 +26,9 @@
 #include <exception>
 
 #include <boost/mpl/list.hpp>
+#if 107000 <= BOOST_VERSION
 #include <boost/test/test_case_template.hpp>
+#endif
 #include <boost/test/unit_test.hpp>
 
 #include "utsushi/device.hpp"
