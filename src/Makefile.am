@@ -1,6 +1,6 @@
 ##  Makefile.am -- an automake template for Makefile.in
 ##  Copyright (C) 2012  SEIKO EPSON CORPORATION
-##  Copyright (C) 2015  Olaf Meeuwissen
+##  Copyright (C) 2015, 2020  Olaf Meeuwissen
 ##
 ##  License: GPL-3.0+
 ##  Author : EPSON AVASYS CORPORATION
