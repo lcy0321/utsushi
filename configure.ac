@@ -271,7 +271,9 @@ AM_CONDITIONAL([have_pdflatex], [test x != x$PDFLATEX])
                                 dnl  modules for optional functionality
 PKG_CHECK_MODULES([LIBUDEV], [libudev],
   [AC_DEFINE([HAVE_LIBUDEV], [1])],
-  [false])
+  [PKG_CHECK_MODULES([LIBUDEV], [udev],
+    [AC_DEFINE([HAVE_LIBUDEV], [1])],
+    [false])])
 AM_CONDITIONAL([have_libudev], [test x != "x$LIBUDEV_LIBS"])
 AS_IF([test xno != "x$with_usb"],
   [PKG_CHECK_MODULES([LIBUSB], [libusb-1.0],
