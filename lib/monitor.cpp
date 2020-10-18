@@ -50,6 +50,8 @@ namespace utsushi {
 
 using boost::filesystem::exists;
 
+using namespace boost::placeholders;
+
 class monitor::impl
 {
 public:

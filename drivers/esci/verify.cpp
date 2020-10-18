@@ -59,6 +59,8 @@ namespace but = boost::unit_test;
 using namespace utsushi;
 using namespace _drv_::esci;
 
+using namespace boost::placeholders;
+
 using std::basic_string;
 using std::ios_base;
 using std::make_pair;
