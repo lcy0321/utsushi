@@ -66,6 +66,8 @@ using utsushi::_flt_::deskew;
 using utsushi::_flt_::autocrop;
 using utsushi::_flt_::pnm;
 
+using namespace boost::placeholders;
+
 namespace sane {
 
 //! Keep backend options separate from frontend options

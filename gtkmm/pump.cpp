@@ -31,6 +31,8 @@
 namespace utsushi {
 namespace gtkmm {
 
+using namespace boost::placeholders;
+
 pump::pump (idevice::ptr idev)
   : utsushi::pump (idev)
   , idev_ptr_(idev)
