@@ -283,7 +283,7 @@ AS_IF([test xno != "x$with_usb"],
 AM_CONDITIONAL([have_libusb], [test x != "x$LIBUSB_LIBS"])
 
 AS_IF([test xno != "x$with_magick_pp"],
-   AS_CASE("x$with_magick_pp",
+   [AS_CASE("x$with_magick_pp",
      [xGraphicsMagick],
        [PKG_CHECK_MODULES([LIBMAGICK_PP], [GraphicsMagick++],
           [AC_DEFINE([HAVE_GRAPHICS_MAGICK_PP], [1])])
@@ -304,11 +304,12 @@ AS_IF([test xno != "x$with_magick_pp"],
        ],
      [dnl default case
       AC_MSG_ERROR([unknown value: --with-magick-pp=$with_magick_pp])
-     ]))
+     ])
+   ])
 AM_CONDITIONAL([have_libmagick_pp], [test x != "x$LIBMAGICK_PP_LIBS"])
 
 AS_IF([test xno != "x$with_magick"],
-   AS_CASE("x$with_magick",
+   [AS_CASE("x$with_magick",
      [xGraphicsMagick],
        [AC_CHECK_PROGS([MAGICK_CONVERT], [gm])
         AS_IF([test xgm != x$MAGICK_CONVERT],
@@ -339,7 +340,8 @@ AS_IF([test xno != "x$with_magick"],
        ],
      [dnl default case
       AC_MSG_ERROR([unknown value: --with-magick=$with_magick])
-     ]))
+     ])
+   ])
 AC_DEFINE_UNQUOTED([MAGICK_CONVERT], ["$MAGICK_CONVERT"])
 AM_CONDITIONAL([have_magick], [test x != "x$MAGICK_CONVERT"])
 
