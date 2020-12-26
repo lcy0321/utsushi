@@ -192,6 +192,11 @@
 :usbid     "0x04b8" "0x1106"
 :status    :good
 
+:model     "ET-2600"
+:interface "USB"
+:usbid     "0x04b8" "0x1122"
+:status    :good
+
 :model     "ET-2720"
 :interface "USB"
 :usbid     "0x04b8" "0x1157"
@@ -590,6 +595,7 @@
 :interface "USB"
 :usbid     "0x04b8" "0x1122"
 :status    :good
+:comment   "ET-2600"
 
 :model     "PID 1123"
 :interface "USB"
