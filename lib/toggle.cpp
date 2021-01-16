@@ -23,6 +23,7 @@
 #endif
 
 #include "utsushi/toggle.hpp"
+#include <iostream>
 
 namespace utsushi {
 
