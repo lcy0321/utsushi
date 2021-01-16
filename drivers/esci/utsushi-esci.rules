@@ -69,6 +69,8 @@ ATTRS{idProduct}=="016f", ENV{utsushi_driver}="esci"
 ATTRS{idProduct}=="0176", ENV{utsushi_driver}="esci"
 ATTRS{idProduct}=="0177", ENV{utsushi_driver}="esci"
 ATTRS{idProduct}=="017a", ENV{utsushi_driver}="esci"
+ATTRS{idProduct}=="018b", ENV{utsushi_driver}="esci"
+ATTRS{idProduct}=="018c", ENV{utsushi_driver}="esci"
 
 #  PX-M7050 Series, WF-8510/8590 Series
 ATTRS{idProduct}=="08bc", ENV{utsushi_driver}="esci"

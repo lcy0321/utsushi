@@ -22,6 +22,7 @@
 #define utsushi_string_hpp_
 
 #include <iosfwd>
+#include <iostream>
 #include <string>
 
 #include <boost/operators.hpp>

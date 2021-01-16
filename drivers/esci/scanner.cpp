@@ -276,6 +276,8 @@ libdrv_esci_LTX_scanner_factory (const scanner::info& info, scanner::ptr& rv)
               || info.product_name () == "DS-80W"
               || info.product_name () == "ES-55R"
               || info.product_name () == "ES-65WR"
+              || info.product_name () == "RR-60"
+              || info.product_name () == "RR-70W"
               )
         {
           sp = make_shared< ES_50 > (cnx);
