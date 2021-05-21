@@ -53,8 +53,8 @@ protected:
 
 private:
   TIFF   *tiff_;
-  uint32  page_;
-  uint32  row_;
+  uint32_t  page_;
+  uint32_t  row_;
 
   boost::scoped_array< octet > partial_line_;
   streamsize                   partial_size_;

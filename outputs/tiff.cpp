@@ -273,7 +273,7 @@ tiff_odevice::boi (const context& ctx)
 
   TIFFSetField (tiff_, TIFFTAG_SAMPLESPERPIXEL, ctx.comps ());
 
-  uint16 pm = 0;                // uint16 is courtesy of tiffio.h
+  uint16_t pm = 0;
   if (8 == ctx.depth())
     {
       if (3 == ctx.comps())
