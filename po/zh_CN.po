@@ -17,19 +17,21 @@
 #
 #  You ought to have received a copy of the GNU General Public License
 #  along with this package.  If not, see <http://www.gnu.org/licenses/>.
+# Tyson Tan <tysontan@tysontan.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: utsushi 0.14.0\n"
 "Report-Msgid-Bugs-To: linux-printer@epson.jp\n"
 "POT-Creation-Date: 2020-12-22 15:45+0900\n"
-"PO-Revision-Date: 2016-02-24 09:02+0900\n"
-"Last-Translator: SEIKO EPSON CORPORATION <linux-printer@epson.jp>\n"
-"Language-Team: Simplified Chinese\n"
+"PO-Revision-Date: 2021-05-21 21:31+0800\n"
+"Last-Translator: Tyson Tan <tysontan@tysontan.com>\n"
+"Language-Team: Simplified Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.3\n"
+"X-Generator: Lokalize 21.04.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: drivers/combo.cpp:234 drivers/esci/compound-scanner.cpp:2591
 #: drivers/esci/compound-scanner.cpp:2626
@@ -47,15 +49,15 @@ msgstr "传输格式"
 
 #: drivers/esci/compound-scanner.cpp:356
 msgid "Loading completed"
-msgstr "装入完成"
+msgstr "装载完成"
 
 #: drivers/esci/compound-scanner.cpp:357
 msgid "Ejecting completed"
-msgstr "弹出完成"
+msgstr "退纸完成"
 
 #: drivers/esci/compound-scanner.cpp:381
 msgid "Cleaning is complete."
-msgstr "清洗完成。"
+msgstr "清洁完成。"
 
 #: drivers/esci/compound-scanner.cpp:382
 msgid "Calibration is complete."
@@ -63,7 +65,7 @@ msgstr "校准完成。"
 
 #: drivers/esci/compound-scanner.cpp:390 drivers/esci/compound-scanner.cpp:415
 msgid "Cleaning is failed."
-msgstr "清洗失败。"
+msgstr "清洁失败。"
 
 #: drivers/esci/compound-scanner.cpp:391 drivers/esci/compound-scanner.cpp:417
 msgid "Calibration is failed."
@@ -71,7 +73,7 @@ msgstr "校准失败。"
 
 #: drivers/esci/compound-scanner.cpp:411
 msgid "Loading failed"
-msgstr "装入失败"
+msgstr "装载失败"
 
 #: drivers/esci/compound-scanner.cpp:413
 msgid "Ejecting failed"
@@ -93,17 +95,17 @@ msgstr "图像类型"
 
 #: drivers/esci/compound-scanner.cpp:570
 msgid "Dropout"
-msgstr "褪色"
+msgstr "丢弃"
 
 #: drivers/esci/compound-scanner.cpp:584
 msgid ""
 "Selecting a compressed format such as JPEG normally results in faster device "
 "side processing."
-msgstr ""
+msgstr "选择压缩格式，例如 JPEG，通常可以使得设备端的处理速度更快。"
 
 #: drivers/esci/compound-scanner.cpp:598
 msgid "JPEG Quality"
-msgstr ""
+msgstr "JPEG 品质"
 
 #: drivers/esci/compound-scanner.cpp:611 drivers/esci/extended-scanner.cpp:394
 #: filters/magick.cpp:184 filters/threshold.cpp:49
@@ -112,36 +114,35 @@ msgstr "阈值"
 
 #: drivers/esci/compound-scanner.cpp:624 drivers/esci/extended-scanner.cpp:365
 msgid "Gamma"
-msgstr ""
+msgstr "伽玛值"
 
 #: drivers/esci/compound-scanner.cpp:638
-#, fuzzy
 msgid "Transfer Size"
-msgstr "传输格式"
+msgstr "传输大小"
 
 #: drivers/esci/compound-scanner.cpp:653
 msgid "Border Fill"
-msgstr ""
+msgstr "外框填充"
 
 #: drivers/esci/compound-scanner.cpp:669
 msgid "Left Border"
-msgstr ""
+msgstr "左边框"
 
 #: drivers/esci/compound-scanner.cpp:674
 msgid "Right Border"
-msgstr ""
+msgstr "右边框"
 
 #: drivers/esci/compound-scanner.cpp:679
 msgid "Top Border"
-msgstr ""
+msgstr "上边缘"
 
 #: drivers/esci/compound-scanner.cpp:684
 msgid "Bottom Border"
-msgstr ""
+msgstr "下边缘"
 
 #: drivers/esci/compound-scanner.cpp:701
 msgid "Force Extent"
-msgstr ""
+msgstr "强制尺寸"
 
 #: drivers/esci/compound-scanner.cpp:702
 msgid ""
@@ -151,6 +152,10 @@ msgid ""
 "sizes match the selected area.\n"
 "Note that this option may slow down application/driver side processing."
 msgstr ""
+"强制图像大小与用户选定的大小相同。"
+"扫描仪可能会按照检测到的文稿大小裁切图像数据，造成每张图像大小不一。"
+"此选项用于确保所有图像与选定区域大小匹配。\n"
+"提示：此选项可能拖慢应用程序/驱动程序端的处理速度。"
 
 #: drivers/esci/compound-scanner.cpp:743
 msgid "Calibration"
@@ -158,15 +163,15 @@ msgstr "校准"
 
 #: drivers/esci/compound-scanner.cpp:744
 msgid "Calibrating..."
-msgstr "正在校准…"
+msgstr "正在校准..."
 
 #: drivers/esci/compound-scanner.cpp:751
 msgid "Cleaning"
-msgstr "清洗"
+msgstr "清洁"
 
 #: drivers/esci/compound-scanner.cpp:752
 msgid "Cleaning..."
-msgstr "正在清洗…"
+msgstr "正在清洁..."
 
 #: drivers/esci/compound-scanner.cpp:759
 msgid "Eject"
@@ -174,15 +179,15 @@ msgstr "退纸"
 
 #: drivers/esci/compound-scanner.cpp:760
 msgid "Ejecting ..."
-msgstr "正在弹出 ..."
+msgstr "正在退纸..."
 
 #: drivers/esci/compound-scanner.cpp:767
 msgid "Load"
-msgstr "装入"
+msgstr "装载"
 
 #: drivers/esci/compound-scanner.cpp:768
 msgid "Loading..."
-msgstr "正在载入..."
+msgstr "正在装载..."
 
 #: drivers/esci/compound-scanner.cpp:1731
 #: drivers/esci/compound-scanner.cpp:2725
@@ -206,7 +211,7 @@ msgstr "自动侦测"
 #: drivers/esci/compound-scanner.cpp:1954
 #: drivers/esci/grammar-capabilities.cpp:567
 msgid "RAW"
-msgstr ""
+msgstr "RAW"
 
 #: drivers/esci/compound-scanner.cpp:2075
 #: drivers/esci/extended-scanner.cpp:1071
@@ -215,6 +220,8 @@ msgid ""
 "Scan area too small.\n"
 "The area needs to be larger than %1% by %2%."
 msgstr ""
+"扫描区域过小。\n"
+"扫描区域必须比 %1% 大 %2%。"
 
 #: drivers/esci/compound-scanner.cpp:2381
 #, boost-format
@@ -222,6 +229,8 @@ msgid ""
 "Resolution too high for selected area.\n"
 "Choose a resolution no larger than %1%"
 msgstr ""
+"所选区域分辨率过高。\n"
+"请选择不超过 %1% 的分辨率"
 
 #: drivers/esci/compound-scanner.cpp:2428
 #: drivers/esci/extended-scanner.cpp:1187
@@ -230,11 +239,11 @@ msgstr "双面"
 
 #: drivers/esci/compound-scanner.cpp:2440
 msgid "Image Count"
-msgstr ""
+msgstr "图像计数"
 
 #: drivers/esci/compound-scanner.cpp:2452
 msgid "Detect Double Feed"
-msgstr "探测双重进纸"
+msgstr "检测双张进纸"
 
 #: drivers/esci/compound-scanner.cpp:2463
 msgid "Long Paper Mode"
@@ -246,32 +255,32 @@ msgid ""
 "would normally support.  Please note that it only supports automatic "
 "detection of the document height."
 msgstr ""
+"选择此模式以扫描超出自动输稿器通常支持长度的文稿。"
+"提示：仅支持文稿高度加自动检测。"
 
 #: drivers/esci/compound-scanner.cpp:2587
 #: drivers/esci/compound-scanner.cpp:2657
 msgid "Bind X and Y resolutions"
-msgstr ""
+msgstr "绑定 X 和 Y 分辨率"
 
 #: drivers/esci/compound-scanner.cpp:2595
 #: drivers/esci/compound-scanner.cpp:2610
 #: drivers/esci/compound-scanner.cpp:2665
 #: drivers/esci/compound-scanner.cpp:2680
-#, fuzzy
 msgid "X Resolution"
-msgstr "分辨率"
+msgstr "X 分辨率"
 
 #: drivers/esci/compound-scanner.cpp:2599
 #: drivers/esci/compound-scanner.cpp:2614
 #: drivers/esci/compound-scanner.cpp:2669
 #: drivers/esci/compound-scanner.cpp:2684
-#, fuzzy
 msgid "Y Resolution"
-msgstr "分辨率"
+msgstr "Y 分辨率"
 
 #: drivers/esci/compound-scanner.cpp:2644
 #: drivers/esci/extended-scanner.cpp:1282
 msgid "Enable Resampling"
-msgstr "启用重新采样"
+msgstr "启用重采样"
 
 #: drivers/esci/compound-scanner.cpp:2645
 #: drivers/esci/extended-scanner.cpp:1283
@@ -280,6 +289,8 @@ msgid ""
 "Resolutions not supported by the hardware will be achieved through image "
 "processing methods."
 msgstr ""
+"此选项可提供更丰富的分辨率选项。"
+"硬件不支持的分辨率将通过图像处理手段实现。"
 
 #: drivers/esci/compound-scanner.cpp:2735
 #: drivers/esci/extended-scanner.cpp:1324
@@ -289,22 +300,22 @@ msgstr "扫描区域"
 #: drivers/esci/compound-scanner.cpp:2743
 #: drivers/esci/extended-scanner.cpp:1332
 msgid "Top Left X"
-msgstr "左上 X"
+msgstr "左上角 X"
 
 #: drivers/esci/compound-scanner.cpp:2751
 #: drivers/esci/extended-scanner.cpp:1348
 msgid "Top Left Y"
-msgstr "左上 Y"
+msgstr "左上角 Y"
 
 #: drivers/esci/compound-scanner.cpp:2759
 #: drivers/esci/extended-scanner.cpp:1340
 msgid "Bottom Right X"
-msgstr "右下 X"
+msgstr "右下角 X"
 
 #: drivers/esci/compound-scanner.cpp:2767
 #: drivers/esci/extended-scanner.cpp:1356
 msgid "Bottom Right Y"
-msgstr "右下 Y"
+msgstr "右下角 Y"
 
 #: drivers/esci/compound-scanner.cpp:2803
 msgid "Crop"
@@ -312,16 +323,16 @@ msgstr "裁剪"
 
 #: drivers/esci/compound-scanner.cpp:2815
 msgid "Crop Adjustment"
-msgstr ""
+msgstr "裁剪调整"
 
 #: drivers/esci/compound-scanner.cpp:2839 gtkmm/dialog.cpp:778
 #: sane/handle.cpp:545 src/scan-cli.cpp:644
 msgid "Deskew"
-msgstr "纠正倾斜"
+msgstr "倾斜纠正"
 
 #: drivers/esci/compound-scanner.cpp:2867
 msgid "Overscan"
-msgstr ""
+msgstr "过扫描"
 
 #: drivers/esci/compound-scanner.cpp:3272
 msgid ""
@@ -329,13 +340,13 @@ msgid ""
 "Unfortunately, this version of the driver does not support authentication "
 "yet."
 msgstr ""
-"需要验证。\n"
-"可惜,此版本的驱动程序不支持验证。"
+"需要身份验证。\n"
+"但此版驱动程序尚不支持身份验证功能。"
 
 #: drivers/esci/compound-scanner.cpp:3276
 #, boost-format
 msgid "Unknown device error: %1%/%2%"
-msgstr ""
+msgstr "未知设备错误：%1%/%2%"
 
 #: drivers/esci/compound-scanner.cpp:3366
 #: drivers/esci/extended-scanner.cpp:206 sane/backend.cpp:288
@@ -343,8 +354,8 @@ msgid ""
 "The Automatic Document Feeder is open.\n"
 "Please close it."
 msgstr ""
-"关闭自动文稿进纸器。\n"
-"如果在自动文稿进纸器中有文稿，请移除然后重新装上。"
+"自动输稿器上盖打开。\n"
+"请关上它。"
 
 #: drivers/esci/compound-scanner.cpp:3369
 #: drivers/esci/extended-scanner.cpp:201 sane/backend.cpp:274
@@ -355,13 +366,13 @@ msgid ""
 "again."
 msgstr ""
 "发生卡纸。\n"
-"打开自动文稿进纸器并移除卡纸。\n"
-"如果在自动文稿进纸器中有文稿，请移除然后重新装上。"
+"请打开自动输稿器并移除纸张。\n"
+"如果自动输稿器已经装载了文稿，请先移除文稿后重新装载。"
 
 #: drivers/esci/compound-scanner.cpp:3374
 #: drivers/esci/extended-scanner.cpp:198 sane/backend.cpp:269
 msgid "Please load the document(s) into the Automatic Document Feeder."
-msgstr "请在自动文稿进纸器中放入文稿。"
+msgstr "请将文稿装载到自动输稿器。"
 
 #: drivers/esci/compound-scanner.cpp:3377
 #: drivers/esci/extended-scanner.cpp:209 sane/backend.cpp:281
@@ -370,8 +381,9 @@ msgid ""
 "remove the documents, and then try again. If documents remain on the tray, "
 "remove them and then reload them."
 msgstr ""
-"一张多面纸插入在自动文稿进纸器中。打开盖子，移除文稿，然后再试一次。如果文稿"
-"仍然存在，移除它们然后重新载入。"
+"在自动输稿器内发生多张进纸。"
+"请打开上盖，移除文稿，然后重新尝试。"
+"如果文稿还在进纸盒内，请先移除它们然后重新装载。"
 
 #: drivers/esci/compound-scanner.cpp:3382
 #: drivers/esci/extended-scanner.cpp:214
@@ -380,37 +392,42 @@ msgid ""
 "Resolve the error condition and try again.  You may have to restart the scan "
 "dialog or application in order to be able to scan."
 msgstr ""
+"发生致命自动输稿器错误。\n"
+"请在解决错误后重新尝试。"
+"您可能要在重新启动扫描对话框或应用程序后才能再次扫描。"
 
 #: drivers/esci/compound-scanner.cpp:3396
 msgid "A fatal error has occurred"
-msgstr ""
+msgstr "发生致命错误"
 
 #: drivers/esci/compound-tweaks.cpp:111 drivers/esci/compound-tweaks.cpp:356
 #: drivers/esci/extended-scanner.cpp:335
 msgid "Speed"
-msgstr ""
+msgstr "速度"
 
 #: drivers/esci/compound-tweaks.cpp:112 drivers/esci/compound-tweaks.cpp:357
 msgid "Optimize image acquisition for speed"
-msgstr ""
+msgstr "针对图像捕获速度进行优化"
 
 #: drivers/esci/compound.cpp:629
 msgid ""
 "The device is in use.  Please wait until the device becomes available, then "
 "try again."
-msgstr "设备正在使用中。请等到设备可用后再试。"
+msgstr ""
+"设备正忙。"
+"请等待设备空闲后重新尝试。"
 
 #: drivers/esci/exception.hpp:64
 msgid "invalid parameter"
-msgstr ""
+msgstr "无效参数"
 
 #: drivers/esci/exception.hpp:74
 msgid "unknown reply"
-msgstr ""
+msgstr "未知回复"
 
 #: drivers/esci/exception.hpp:84
 msgid "invalid command"
-msgstr ""
+msgstr "无效命令"
 
 #: drivers/esci/exception.hpp:94
 msgid "device busy"
@@ -418,43 +435,43 @@ msgstr "设备正忙"
 
 #: drivers/esci/exception.hpp:104
 msgid "protocol error"
-msgstr ""
+msgstr "协议错误"
 
 #: drivers/esci/extended-scanner.cpp:84
 msgid "Positive Film"
-msgstr ""
+msgstr "正片"
 
 #: drivers/esci/extended-scanner.cpp:85
 msgid "Negative Film"
-msgstr ""
+msgstr "负片"
 
 #: drivers/esci/extended-scanner.cpp:100
 msgid "Bi-level CRT"
-msgstr ""
+msgstr "二值 CRT"
 
 #: drivers/esci/extended-scanner.cpp:101
 msgid "Multi-level CRT"
-msgstr ""
+msgstr "多亮度级别 CRT"
 
 #: drivers/esci/extended-scanner.cpp:102
 msgid "High Density Print"
-msgstr ""
+msgstr "高密度印刷物"
 
 #: drivers/esci/extended-scanner.cpp:103
 msgid "Low Density Print"
-msgstr ""
+msgstr "低密度印刷物"
 
 #: drivers/esci/extended-scanner.cpp:104
 msgid "High Contrast Print"
-msgstr ""
+msgstr "高对比度印刷物"
 
 #: drivers/esci/extended-scanner.cpp:105
 msgid "Custom (Base Gamma = 1.0)"
-msgstr ""
+msgstr "自定义 (基准伽玛值为 1.0)"
 
 #: drivers/esci/extended-scanner.cpp:106
 msgid "Custom (Base Gamma = 1.8)"
-msgstr ""
+msgstr "自定义 (基准伽玛值为 1.8)"
 
 #: drivers/esci/extended-scanner.cpp:121
 #: drivers/esci/grammar-capabilities.cpp:260
@@ -464,59 +481,59 @@ msgstr "无"
 
 #: drivers/esci/extended-scanner.cpp:123
 msgid "Dot Matrix Printer"
-msgstr ""
+msgstr "针式打印机"
 
 #: drivers/esci/extended-scanner.cpp:124
 msgid "Thermal Printer"
-msgstr ""
+msgstr "热敏打印机"
 
 #: drivers/esci/extended-scanner.cpp:125
 msgid "Inkjet Printer"
-msgstr ""
+msgstr "喷墨打印机"
 
 #: drivers/esci/extended-scanner.cpp:126
 msgid "CRT Display"
-msgstr ""
+msgstr "CRT 显示器"
 
 #: drivers/esci/extended-scanner.cpp:141
 msgid "Bi-level"
-msgstr ""
+msgstr "二值"
 
 #: drivers/esci/extended-scanner.cpp:142
 msgid "Text Enhanced"
-msgstr ""
+msgstr "文本增强"
 
 #: drivers/esci/extended-scanner.cpp:143
 msgid "Hard Tone"
-msgstr ""
+msgstr "硬调"
 
 #: drivers/esci/extended-scanner.cpp:144
 msgid "Soft Tone"
-msgstr ""
+msgstr "软调"
 
 #: drivers/esci/extended-scanner.cpp:145
 msgid "Net Screen"
-msgstr ""
+msgstr "网面"
 
 #: drivers/esci/extended-scanner.cpp:146
 msgid "Bayer 4x4"
-msgstr ""
+msgstr "Bayer 4x4"
 
 #: drivers/esci/extended-scanner.cpp:147
 msgid "Spiral 4x4"
-msgstr ""
+msgstr "螺旋 4x4"
 
 #: drivers/esci/extended-scanner.cpp:148
 msgid "Net Screen 4x4"
-msgstr ""
+msgstr "网面 4x4"
 
 #: drivers/esci/extended-scanner.cpp:149
 msgid "Net Screen 8x4"
-msgstr ""
+msgstr "网面 8x4"
 
 #: drivers/esci/extended-scanner.cpp:191
 msgid "Unknown device error"
-msgstr ""
+msgstr "未知设备错误"
 
 #: drivers/esci/extended-scanner.cpp:326
 #: drivers/esci/grammar-capabilities.cpp:689 gtkmm/dialog.cpp:794
@@ -528,7 +545,7 @@ msgstr "单色"
 #: drivers/esci/grammar-capabilities.cpp:690 gtkmm/dialog.cpp:795
 #: sane/handle.cpp:589 src/scan-cli.cpp:665
 msgid "Grayscale"
-msgstr "灰度"
+msgstr "灰阶"
 
 #: drivers/esci/extended-scanner.cpp:328
 #: drivers/esci/grammar-capabilities.cpp:687 drivers/esci/scanner.cpp:441
@@ -538,7 +555,7 @@ msgstr "彩色"
 
 #: drivers/esci/extended-scanner.cpp:342
 msgid "Line Count"
-msgstr ""
+msgstr "线数"
 
 #: drivers/esci/extended-scanner.cpp:343
 msgid ""
@@ -546,36 +563,41 @@ msgid ""
 "transfer.  Note that 0 will use the maximum usable value.  Values larger "
 "than the maximum usable value are clamped to the maximum."
 msgstr ""
+"指定每次传输时设备扫描的线数。"
+"数值为 0 时将使用最大可用值。"
+"大于最大可用值的数值将被截断为最大可用值。"
 
 #: drivers/esci/extended-scanner.cpp:357
 msgid "Gamma Correction"
-msgstr ""
+msgstr "伽玛校准"
 
 #: drivers/esci/extended-scanner.cpp:374
 msgid "Color Correction"
-msgstr ""
+msgstr "色彩校准"
 
 #: drivers/esci/extended-scanner.cpp:382
 msgid "Auto Area Segmentation"
-msgstr ""
+msgstr "自动分区"
 
 #: drivers/esci/extended-scanner.cpp:383
 msgid "Threshold text regions and apply half-toning to photo/image areas."
-msgstr ""
+msgstr "对文本区域进行阈值处理，对照片/图像区域应用半调处理。"
 
 #: drivers/esci/extended-scanner.cpp:404
 msgid "Dither Pattern"
-msgstr ""
+msgstr "抖动图案"
 
 #: drivers/esci/extended-scanner.cpp:414
 msgid "Sharpness"
-msgstr ""
+msgstr "锐利度"
 
 #: drivers/esci/extended-scanner.cpp:415
 msgid ""
 "Emphasize the edges in an image more by choosing a larger value, less by "
 "selecting a smaller value."
 msgstr ""
+"数值高时图像中的边缘部分将被强调，"
+"数值低时则相反。"
 
 #: drivers/esci/extended-scanner.cpp:426 filters/magick.cpp:191
 msgid "Brightness"
@@ -584,11 +606,11 @@ msgstr "亮度"
 #: drivers/esci/extended-scanner.cpp:427
 msgid ""
 "Make images look lighter with a larger value or darker with a smaller value."
-msgstr ""
+msgstr "数值高时图像将显得更亮，数值低时则显得更暗。"
 
 #: drivers/esci/extended-scanner.cpp:434
 msgid "Mirror"
-msgstr ""
+msgstr "水平镜像翻转"
 
 #: drivers/esci/extended-scanner.cpp:1174
 #: drivers/esci/grammar-capabilities.cpp:330
@@ -600,26 +622,25 @@ msgstr "文稿台"
 #: drivers/esci/grammar-capabilities.cpp:328
 #: drivers/esci/grammar-capabilities.cpp:338
 msgid "ADF"
-msgstr "自动文稿进纸器"
+msgstr "自动输稿器"
 
 #: drivers/esci/extended-scanner.cpp:1199
 msgid "Primary TPU"
-msgstr ""
+msgstr "主透扫器"
 
 #: drivers/esci/extended-scanner.cpp:1200
 msgid "Secondary TPU"
-msgstr ""
+msgstr "副透扫器"
 
 #: drivers/esci/extended-scanner.cpp:1204
 #: drivers/esci/grammar-capabilities.cpp:329
 #: drivers/esci/grammar-capabilities.cpp:339
 msgid "Transparency Unit"
-msgstr "透扫适配器部件"
+msgstr "透扫器模块"
 
 #: drivers/esci/extended-scanner.cpp:1213
-#, fuzzy
 msgid "Film Type"
-msgstr "文件类型"
+msgstr "胶片类型"
 
 #: drivers/esci/grammar-capabilities.cpp:269
 msgid "White"
@@ -636,43 +657,43 @@ msgstr "关"
 
 #: drivers/esci/grammar-capabilities.cpp:370
 msgid "Normal"
-msgstr "普通"
+msgstr "正常"
 
 #: drivers/esci/grammar-capabilities.cpp:371
 msgid "Thin"
-msgstr "细"
+msgstr "薄"
 
 #: drivers/esci/grammar-capabilities.cpp:385
 msgid "On"
-msgstr ""
+msgstr "开"
 
 #: drivers/esci/grammar-capabilities.cpp:386
 msgid "Paper Protection"
-msgstr ""
+msgstr "纸张保护"
 
 #: drivers/esci/grammar-capabilities.cpp:474
 msgid "Red"
-msgstr "红色"
+msgstr "红"
 
 #: drivers/esci/grammar-capabilities.cpp:475
 msgid "Green"
-msgstr "绿色"
+msgstr "绿"
 
 #: drivers/esci/grammar-capabilities.cpp:476
 msgid "Blue"
-msgstr "蓝色"
+msgstr "蓝"
 
 #: drivers/esci/grammar-capabilities.cpp:568 gtkmm/file-chooser.cpp:453
 msgid "JPEG"
-msgstr ""
+msgstr "JPEG"
 
 #: drivers/esci/scanner.cpp:438
 msgid "ADF - Double-sided"
-msgstr "自动文稿进纸器 - 双面"
+msgstr "自动输稿器 - 双面"
 
 #: drivers/esci/scanner.cpp:439
 msgid "ADF - Single-sided"
-msgstr "自动文稿进纸器 - 单面"
+msgstr "自动输稿器 - 单面"
 
 #: drivers/esci/scanner.cpp:440
 msgid "Black & White"
@@ -684,7 +705,7 @@ msgstr "模式"
 
 #: drivers/esci/scanner.cpp:443
 msgid "Text/Line Art"
-msgstr "文本/线画"
+msgstr "文本/线稿"
 
 #: filters/image-skip.cpp:67
 msgid "Skip Blank Pages Settings"
@@ -692,16 +713,15 @@ msgstr "跳过空白页设置"
 
 #: filters/jpeg.cpp:229
 msgid "Buffer Size"
-msgstr ""
+msgstr "缓冲区大小"
 
 #: filters/jpeg.cpp:250
-#, fuzzy
 msgid "Image Quality"
-msgstr "图像类型"
+msgstr "图像品质"
 
 #: filters/magick.cpp:192
 msgid "Change brightness of the acquired image."
-msgstr ""
+msgstr "更改捕获图像的亮度。"
 
 #: filters/magick.cpp:199
 msgid "Contrast"
@@ -709,23 +729,23 @@ msgstr "对比度"
 
 #: filters/magick.cpp:200
 msgid "Change contrast of the acquired image."
-msgstr ""
+msgstr "更改捕获图像的对比度。"
 
 #: filters/reorient.cpp:258
 msgid "0 degrees"
-msgstr "0°"
+msgstr "0 度"
 
 #: filters/reorient.cpp:259
 msgid "90 degrees"
-msgstr "90°"
+msgstr "90 度"
 
 #: filters/reorient.cpp:260
 msgid "180 degrees"
-msgstr "180°"
+msgstr "180 度"
 
 #: filters/reorient.cpp:261
 msgid "270 degrees"
-msgstr "270°"
+msgstr "270 度"
 
 #: filters/reorient.cpp:262
 msgid "Auto"
@@ -742,11 +762,11 @@ msgstr "维护"
 
 #: gtkmm/chooser.cpp:70
 msgid "No devices found"
-msgstr "找不到设备"
+msgstr "未找到设备"
 
 #: gtkmm/chooser.cpp:77
 msgid "Select a device"
-msgstr "选择一个设备"
+msgstr "选择一台设备"
 
 #: gtkmm/chooser.cpp:205
 #, boost-format
@@ -773,12 +793,12 @@ msgstr "另存为..."
 
 #: gtkmm/dialog.cpp:359
 msgid "Untitled"
-msgstr "无标题的"
+msgstr "未命名"
 
 #: gtkmm/dialog.cpp:658 src/scan-cli.cpp:1135
 #, boost-format
 msgid "conversion from %1% to %2% is not supported"
-msgstr "不支持 %1% 到 %2% 的转换"
+msgstr "不支持转换 %1% 到 %2%"
 
 #: gtkmm/dialog.glade:28 gtkmm/dialog.glade:366
 msgid "Scan"
@@ -786,7 +806,7 @@ msgstr "扫描"
 
 #: gtkmm/dialog.glade:53
 msgid "Details:"
-msgstr "详细资料:"
+msgstr "详情："
 
 #: gtkmm/dialog.glade:90
 msgid "Preview"
@@ -806,15 +826,15 @@ msgstr "实际大小"
 
 #: gtkmm/dialog.glade:118
 msgid "Zoom to fit"
-msgstr "缩放以适合"
+msgstr "缩放至适合"
 
 #: gtkmm/dialog.glade:188
 msgid "Scanner:"
-msgstr "扫描仪:"
+msgstr "扫描仪："
 
 #: gtkmm/dropdown.cpp:170
 msgid "To be implemented."
-msgstr ""
+msgstr "该功能尚未实现。"
 
 #: gtkmm/dropdown.cpp:173
 #, boost-format
@@ -828,6 +848,14 @@ msgid ""
 "\n"
 "\t<b>%2%</b>"
 msgstr ""
+"更改活动项目功能目前尚未实现。"
+"应该从\n"
+"\n"
+"\t<b>%1%</b>\n"
+"\n"
+"更改为\n"
+"\n"
+"\t<b>%2%</b>"
 
 #: gtkmm/dropdown.cpp:193
 #, boost-format
@@ -837,15 +865,18 @@ msgid ""
 "\n"
 "\t<b>%1%</b>"
 msgstr ""
+"管理操作功能目前尚未实现。"
+"此操作可更改并回退到\n"
+"\n"
+"\t<b>%1%</b>"
 
 #: gtkmm/editor.cpp:460
 msgid "Other"
 msgstr "其他"
 
 #: gtkmm/editor.cpp:471
-#, fuzzy
 msgid "Application"
-msgstr "校准"
+msgstr "应用程序"
 
 #: gtkmm/editor.cpp:682
 msgid "Restoring previous value"
@@ -865,12 +896,13 @@ msgid ""
 "The '%1%' file extension is not associated with a supported file format.  "
 "Please select a file format or use one of the known file extensions."
 msgstr ""
-"'%1%' 扩展名没有与支持的文件格式关联。请选择一个文件格式或使用已知的扩展名。"
+"扩展名“%1%”并未关联任何一种支持的文件格式。"
+"请选择一种文件格式，或使用已知的扩展名。"
 
 #: gtkmm/file-chooser.cpp:286
 #, boost-format
 msgid "The %1% format does not support multiple images in a single file."
-msgstr "%1% 格式不支持单个文件中有多个图像。"
+msgstr "%1% 格式不支持在单个文件中包含多张图像。"
 
 #: gtkmm/file-chooser.cpp:291
 #, boost-format
@@ -878,8 +910,8 @@ msgid ""
 "Please save to PDF or TIFF if you want a single file.  If you prefer the %1% "
 "image format, use a filename such as 'Untitled-%%3i%2%'."
 msgstr ""
-"如果想要使用单个文件，请保存为 PDF 或 TIFF。如果选择 %1% 图像格式，请使用 '无"
-"标题的-%%3i%2%' 等文件名。"
+"如果想要使用单个文件，请保存为 PDF 或 TIFF。"
+"如果想要使用 %1% 图像格式，请使用例如“未命名-%%3i%2%”这样的文件名。"
 
 #: gtkmm/file-chooser.cpp:315
 #, boost-format
@@ -887,20 +919,22 @@ msgid ""
 "The name \"%1%\" already exists.\n"
 "OK to overwrite this name using the new settings?"
 msgstr ""
-"名称 \"%1%\" 已经存在。\n"
-"确定要用新的设置替换这个名称吗?"
+"文件名“%1%”已存在。\n"
+"您确定要用新设置覆盖此文件名吗?"
 
 #: gtkmm/file-chooser.cpp:318
 #, boost-format
 msgid ""
 "The file already exists in \"%1%\".  Replacing it will overwrite its "
 "contents."
-msgstr "此文件已在 \"%1%\" 中。替换它将覆盖其内容。"
+msgstr ""
+"此文件在“%1%”中已存在。"
+"替换它将覆盖其内容。"
 
 #: gtkmm/file-chooser.cpp:326
 #, boost-format
 msgid "Files matching \"%1%\" may already exist.  Do you want to replace them?"
-msgstr "匹配 \"%1%\" 的文件可能已经存在。是否要替换它们？"
+msgstr "与“%1%”匹配的文件可能已经存在。您想要替换它们吗？"
 
 #: gtkmm/file-chooser.cpp:373 gtkmm/file-chooser.cpp:505
 #: gtkmm/file-chooser.cpp:636
@@ -910,32 +944,31 @@ msgstr "文件类型"
 #: gtkmm/file-chooser.cpp:377
 #, boost-format
 msgid "File type: %1%"
-msgstr "文件格式:%1%"
+msgstr "文件类型：%1%"
 
 #: gtkmm/file-chooser.cpp:449
 msgid "By extension"
 msgstr "按扩展名"
 
 #: gtkmm/file-chooser.cpp:462
-#, fuzzy
 msgid "PDF"
-msgstr "自动文稿进纸器"
+msgstr "PDF"
 
 #: gtkmm/file-chooser.cpp:471
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 #: gtkmm/file-chooser.cpp:480
 msgid "PNM"
-msgstr ""
+msgstr "PNM"
 
 #: gtkmm/file-chooser.cpp:489
 msgid "TIFF"
-msgstr ""
+msgstr "TIFF"
 
 #: gtkmm/file-chooser.cpp:509
 msgid "Save all images in a single file"
-msgstr "在单个文件中保存所有图像"
+msgstr "保存所有图像到单个文件中"
 
 #: gtkmm/file-chooser.cpp:545
 msgid "PDFs and Image Files"
@@ -951,27 +984,29 @@ msgstr "所有文件"
 
 #: lib/descriptor.cpp:47
 msgid "Standard"
-msgstr ""
+msgstr "标准"
 
 #: lib/descriptor.cpp:48
 msgid ""
 "If there is any user interface at all, options at the standard level are "
 "meant to be made available to the user."
 msgstr ""
+"只要存在用户界面，"
+"属于标准级别的选项应该对用户可用。"
 
 #: lib/descriptor.cpp:54
 msgid "Extended"
-msgstr ""
+msgstr "扩展"
 
 #: lib/descriptor.cpp:55
 msgid ""
 "Extended options are for those situations where the user needs a bit more "
 "control over how things will be done."
-msgstr ""
+msgstr "扩展选项是为用户需要对过程进行更多控制时准备的选项。"
 
 #: lib/descriptor.cpp:61
 msgid "Complete"
-msgstr ""
+msgstr "完整"
 
 #: lib/descriptor.cpp:62
 msgid ""
@@ -979,54 +1014,56 @@ msgid ""
 "image acquisition jobs or those users will not be satisfied unless they are "
 "in complete control."
 msgstr ""
+"这是为要求苛刻的图像捕获任务，"
+"或者需要对工作流程进行完全控制的用户准备的选项。"
 
 #: lib/media.cpp:62
 msgid "ISO/A3"
-msgstr ""
+msgstr "ISO/A3"
 
 #: lib/media.cpp:63
 msgid "ISO/A4"
-msgstr ""
+msgstr "ISO/A4"
 
 #: lib/media.cpp:64
 msgid "ISO/A5"
-msgstr ""
+msgstr "ISO/A5"
 
 #: lib/media.cpp:65
 msgid "ISO/A6"
-msgstr ""
+msgstr "ISO/A6"
 
 #: lib/media.cpp:67
 msgid "JIS/B4"
-msgstr ""
+msgstr "JIS/B4"
 
 #: lib/media.cpp:68
 msgid "JIS/B5"
-msgstr ""
+msgstr "JIS/B5"
 
 #: lib/media.cpp:69
 msgid "JIS/B6"
-msgstr ""
+msgstr "JIS/B6"
 
 #: lib/media.cpp:71
 msgid "Ledger"
-msgstr "帐簿纸"
+msgstr "美国账本用纸 (Ledger)"
 
 #: lib/media.cpp:72
 msgid "Legal"
-msgstr "Legal"
+msgstr "美国法务用纸 (Legal)"
 
 #: lib/media.cpp:73
 msgid "Letter"
-msgstr "信纸"
+msgstr "美国信纸 (Letter)"
 
 #: lib/media.cpp:74
 msgid "Executive"
-msgstr "行政用纸 (Executive)"
+msgstr "美国行政用纸 (Executive)"
 
 #: lib/pump.cpp:83
 msgid "Acquire image data asynchronously"
-msgstr ""
+msgstr "异步捕获图像数据"
 
 #: lib/pump.cpp:84
 msgid ""
@@ -1038,27 +1075,31 @@ msgid ""
 "Note, you may no longer be able to cancel image acquisition via the normal "
 "means when this option is set to false."
 msgstr ""
+"开启此选项时，图像捕获过程将独立于程序的其他部分进行处理。"
+"一般而言这是正确的选择，可以保持程序即时响应用户操作，并随过程进度更新状态。"
+"然而在排除故障时你可能需要关闭此选项，让程序的工作更可预测。\n"
+"提示：关闭此选项时可能无法通过正常手段取消图像捕获过程。"
 
 #: lib/run-time.cpp:366
 msgid "GNU standard options"
-msgstr ""
+msgstr "GNU 标准选项"
 
 #: lib/run-time.cpp:367
 msgid "Standard options"
-msgstr ""
+msgstr "标准选项"
 
 #: lib/run-time.cpp:417
 msgid "display this help and exit"
-msgstr ""
+msgstr "显示此帮助并退出"
 
 #: lib/run-time.cpp:418
 msgid "output version information and exit"
-msgstr ""
+msgstr "输出版本信息并退出"
 
 #: lib/tag.cpp:70
 #, boost-format
 msgid "Options provided by %1%."
-msgstr ""
+msgstr "选项由 %1% 提供。"
 
 #: lib/tag.cpp:74
 msgid "General"
@@ -1066,15 +1107,15 @@ msgstr "常规"
 
 #: lib/tag.cpp:75
 msgid "Basic options."
-msgstr ""
+msgstr "基本选项。"
 
 #: lib/tag.cpp:79
 msgid "Geometry"
-msgstr "几何形状"
+msgstr "尺寸"
 
 #: lib/tag.cpp:80
 msgid "Scan area and image size related options."
-msgstr ""
+msgstr "扫描区域和图像尺寸的相关选项。"
 
 #: lib/tag.cpp:84
 msgid "Enhancement"
@@ -1082,7 +1123,7 @@ msgstr "增强"
 
 #: lib/tag.cpp:85
 msgid "Image modification options."
-msgstr ""
+msgstr "图像调整选项。"
 
 #: sane/backend.cpp:1033
 msgid ""
@@ -1093,63 +1134,68 @@ msgid ""
 "\" locale, but you really should check your locale configuration and the "
 "locale support of the C++ library used by the application."
 msgstr ""
+"当前区域设置不受此应用程序使用的标准 C++ 程序库支持。"
+"这很可能是由于错误的区域设置造成，"
+"但也不能排除使用了一款不支持区域设置的 C++ 程序库。"
+"您可以使用 C 语言的区域设置来启动该应用程序，"
+"但您更应该检查区域设置是否正常，"
+"还应检查该应用程序使用的 C++ 程序库是否支持区域设置。"
 
 #: sane/backend.cpp:1057
-#, fuzzy
 msgid "library initialization failed"
-msgstr "校准失败。"
+msgstr "程序库初始化失败"
 
 #: sane/backend.hpp:294
 #, c-format, boost-format
 msgid "Unknown SANE status code %d"
-msgstr ""
+msgstr "未知 SANE 状态代码 %d"
 
 #: src/help.cpp:52
 msgid "display help information for a command"
-msgstr ""
+msgstr "显示命令的帮助信息"
 
 #: src/list.cpp:50 src/main.cpp:66
 msgid "list available image acquisition devices"
-msgstr ""
+msgstr "列出可用的图像捕获设备"
 
 #: src/main.cpp:61
 msgid "Supported commands"
-msgstr ""
+msgstr "支持的命令"
 
 #: src/main.cpp:64
 msgid "display the help for a command and exit"
-msgstr ""
+msgstr "显示命令的帮助并退出"
 
 #: src/main.cpp:65
 msgid "output command version information and exit"
-msgstr ""
+msgstr "输出命令版本信息并退出"
 
 #: src/main.cpp:67
 msgid "scan with a suitable utility"
-msgstr ""
+msgstr "用合适的工具进行扫描"
 
 #: src/main.cpp:72
 msgid "next generation image acquisition"
-msgstr ""
+msgstr "新一代图像捕获系统"
 
 #: src/scan-cli.cpp:163
 #, boost-format
 msgid "%1%: not found"
-msgstr ""
+msgstr "%1%：未找到"
 
 #: src/scan-cli.cpp:168 src/scan-cli.cpp:584
 msgid "no usable devices available"
-msgstr ""
+msgstr "无可用设备"
 
 #: src/scan-cli.cpp:175
 #, boost-format
 msgid "%1%: found but has no driver"
-msgstr ""
+msgstr "%1%：找到设备但缺少驱动程序"
 
 #: src/scan-cli.cpp:187
 #, boost-format
 msgid "%1%: not supported"
-msgstr ""
+msgstr "%1%：不支持"
 
 #: src/scan-cli.cpp:237
 #, boost-format
@@ -1157,27 +1203,29 @@ msgid ""
 "%1%\n"
 "Allowed values: %2%"
 msgstr ""
+"%1%\n"
+"允许的数值：%2%"
 
 #: src/scan-cli.cpp:244
 #, boost-format
 msgid "Allowed values: %1%"
-msgstr ""
+msgstr "允许的数值：%1%"
 
 #: src/scan-cli.cpp:509
 msgid "image acquisition device to use"
-msgstr ""
+msgstr "要使用的图像捕获设备"
 
 #: src/scan-cli.cpp:511
 msgid "output destination to use"
-msgstr ""
+msgstr "要使用的输出目标位置"
 
 #: src/scan-cli.cpp:525 src/scan-gtkmm.cpp:73
 msgid "Utility options"
-msgstr ""
+msgstr "工具选项"
 
 #: src/scan-cli.cpp:528
 msgid "log device I/O in hexdump format"
-msgstr ""
+msgstr "保存设备输入输出信息为 hexdump 格式日志"
 
 #: src/scan-cli.cpp:531
 msgid ""
@@ -1187,24 +1235,30 @@ msgid ""
 "name.  Some require additional libraries at build-time in order to be "
 "available."
 msgstr ""
+"输出图像格式\n"
+"PNM、PNG、JPEG、PDF、TIFF 或设备支持的传输格式。"
+"指定的类型一般可以从输出文件名来推断。"
+"某些格式需要在构建程序时具备额外的程序库才能使用。"
 
 #: src/scan-cli.cpp:593
 msgid "Device actions"
-msgstr ""
+msgstr "设备操作"
 
 #: src/scan-cli.cpp:604
 msgid ""
 "Only perform the actions given on the command-line.  Do not perform image "
 "acquisition."
 msgstr ""
+"仅执行在命令行给出的操作。"
+"不要执行图像捕获。"
 
 #: src/scan-cli.cpp:610
 msgid "Device options"
-msgstr ""
+msgstr "设备选项"
 
 #: src/scan-cli.cpp:612
 msgid "Add-on options"
-msgstr ""
+msgstr "附加设备选项"
 
 #: src/scan-cli.cpp:706
 msgid ""
@@ -1213,33 +1267,35 @@ msgid ""
 "A '--duplex' option may be ignored if you do not select the ADF, for "
 "example.\n"
 msgstr ""
+"注意：如果设备选项的前提条件无法满足，这些选项可能会被忽略。\n"
+"例如：“--duplex”选项在没有选择自动输稿器时可能会被忽略。\n"
 
 #: src/scan-cli.cpp:879
 #, boost-format
 msgid "cannot infer image format from file extension: '%1%'"
-msgstr ""
+msgstr "无法从文件扩展名“%1%”推断图像格式"
 
 #: src/scan-cli.cpp:900
-#, fuzzy, boost-format
+#, boost-format
 msgid "unsupported image format: '%1%'"
-msgstr "不支持的文件格式。"
+msgstr "不支持的文件格式：“%1%”"
 
 #: src/scan-cli.cpp:955
-#, fuzzy, boost-format
+#, boost-format
 msgid "%1% does not support multi-image files"
-msgstr "%1% 格式不支持单个文件中有多个图像。"
+msgstr "%1% 格式不支持多图像文件。"
 
 #: src/scan-gtkmm.cpp:77
 msgid "use an alternative GUI layout definition file"
-msgstr ""
+msgstr "使用备选图形界面布局定义文件"
 
 #: src/scan-gtkmm.cpp:79
 msgid "use an alternative GUI resource file"
-msgstr ""
+msgstr "使用备选图形界面资源文件"
 
 #: src/scan.cpp:77
 msgid "Command options"
-msgstr ""
+msgstr "命令选项"
 
 #: src/scan.cpp:82
 msgid ""
@@ -1248,12 +1304,14 @@ msgid ""
 "A scan utility suitable for non-interactive use can be selected with the '--"
 "no-interface' option."
 msgstr ""
+"启动交互式用户界面\n"
+"默认行为取决于运行该命令的环境。"
+"非交互式的扫描工具可以选择“--no-interface”选项。"
 
 #: src/scan.cpp:91
-#, fuzzy
 msgid "acquire images with a suitable utility"
-msgstr "在单个文件中保存所有图像"
+msgstr "使用合适的工具捕获图像"
 
 #: src/version.cpp:52
 msgid "display version information for a command"
-msgstr ""
+msgstr "显示命令的版本信息"
