@@ -1614,16 +1614,16 @@ extended_scanner::configure_color_correction ()
   try {
     mat = profile_matrix.at (caps_.product_name ());
     add_options ()
-      ("cct-1", quantity (mat[0][0]))
-      ("cct-2", quantity (mat[0][1]))
-      ("cct-3", quantity (mat[0][2]))
-      ("cct-4", quantity (mat[1][0]))
-      ("cct-5", quantity (mat[1][1]))
-      ("cct-6", quantity (mat[1][2]))
-      ("cct-7", quantity (mat[2][0]))
-      ("cct-8", quantity (mat[2][1]))
-      ("cct-9", quantity (mat[2][2]))
-      ("sw-color-correction", toggle (true))
+      ("cct-1", quantity (mat[0][0]), attributes (), CCB_N_("Red"))
+      ("cct-2", quantity (mat[0][1]), attributes (), CCB_N_("Shift green to red"))
+      ("cct-3", quantity (mat[0][2]), attributes (), CCB_N_("Shift blue to red"))
+      ("cct-4", quantity (mat[1][0]), attributes (), CCB_N_("Shift red to green"))
+      ("cct-5", quantity (mat[1][1]), attributes (), CCB_N_("Green"))
+      ("cct-6", quantity (mat[1][2]), attributes (), CCB_N_("Shift blue to green"))
+      ("cct-7", quantity (mat[2][0]), attributes (), CCB_N_("Shift red to blue"))
+      ("cct-8", quantity (mat[2][1]), attributes (), CCB_N_("Shift green to blue"))
+      ("cct-9", quantity (mat[2][2]), attributes (), CCB_N_("Blue"))
+      ("sw-color-correction", toggle (true), attributes (), CCB_N_("Software color correction"))
       ;
   }
   catch (const std::out_of_range&) {}
