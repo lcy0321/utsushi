@@ -1,6 +1,6 @@
 dnl  configure.ac -- an autoconf template for configure
 dnl  Copyright (C) 2012-2016  SEIKO EPSON CORPORATION
-dnl  Copyright (C) 2013-2015, 2019  Olaf Meeuwissen
+dnl  Copyright (C) 2013-2015, 2019, 2021  Olaf Meeuwissen
 dnl
 dnl  License: GPL-3.0+
 dnl  Author : EPSON AVASYS CORPORATION
@@ -416,7 +416,7 @@ AM_CONDITIONAL([WITH_SANE], [test x != "x$sane_version"])
 AM_CONDITIONAL([enable_sane_config], [test xyes = "x$enable_sane_config"])
 AC_SUBST(SANE_MAJOR, `echo $sane_version | $AWK -F. '{print $1}'`)
 AC_SUBST(SANE_MINOR, `echo $sane_version | $AWK -F. '{print $2}'`)
-AC_SUBST(SANE_REVISION, `echo $sane_version | $AWK -F. '{print $3}'`)
+AC_SUBST(SANE_REVISION, `echo $sane_version | $AWK -F. '{print $3}' | sed 's/[^0-9].*$//'`)
 AC_SUBST(SANE_BACKENDDIR, $sane_backenddir)
 AC_SUBST(SANE_SYSCONFDIR, $sane_sysconfdir)
 
