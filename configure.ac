@@ -378,6 +378,7 @@ AS_IF([test xno != "x$with_sane"],
              ])
           ])
        ])
+     sane_version=`echo $sane_version | sed 's/@<:@^0-9@:>@*$//'`
      AC_MSG_RESULT([$sane_version])
      AC_MSG_CHECKING([where SANE backends are installed])
      AC_MSG_RESULT([$sane_backenddir])
@@ -416,7 +417,7 @@ AM_CONDITIONAL([WITH_SANE], [test x != "x$sane_version"])
 AM_CONDITIONAL([enable_sane_config], [test xyes = "x$enable_sane_config"])
 AC_SUBST(SANE_MAJOR, `echo $sane_version | $AWK -F. '{print $1}'`)
 AC_SUBST(SANE_MINOR, `echo $sane_version | $AWK -F. '{print $2}'`)
-AC_SUBST(SANE_REVISION, `echo $sane_version | $AWK -F. '{print $3}' | sed 's/[^0-9].*$//'`)
+AC_SUBST(SANE_REVISION, `echo $sane_version | $AWK -F. '{print $3}'`)
 AC_SUBST(SANE_BACKENDDIR, $sane_backenddir)
 AC_SUBST(SANE_SYSCONFDIR, $sane_sysconfdir)
 
