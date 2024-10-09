@@ -37,7 +37,7 @@ extern "C" {                    // needed until sane-backends-1.0.14
 #include <sane/sane.h>
 }
 
-#if !((SANE_MAJOR == SANE_CURRENT_MAJOR) && (SANE_MINOR == 0))
+#if !(SANE_MAJOR == SANE_CURRENT_MAJOR)
 #error "SANE installation violates versioning portability constraints."
 #endif
 
