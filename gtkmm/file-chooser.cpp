@@ -268,7 +268,7 @@ file_chooser::on_response (int response_id)
                          " format or use one of the known file extensions."))
             % ext).str ());
 
-        if (dynamic_cast< Gtk::Window * > (this))
+        if (auto *ptr = dynamic_cast< Gtk::Window * > (this); ptr != nullptr)
           get_group ()->add_window (tbd);
 
         tbd.run ();
@@ -293,7 +293,7 @@ file_chooser::on_response (int response_id)
                            " a filename such as 'Untitled-%%3i%2%'."))
               % fmt % get_current_extension ()).str ());
 
-          if (dynamic_cast< Gtk::Window * > (this))
+          if (auto *ptr = dynamic_cast< Gtk::Window * > (this); ptr != nullptr)
             get_group ()->add_window (tbd);
 
           tbd.run ();
@@ -346,7 +346,7 @@ file_chooser::on_response (int response_id)
   tbd.add_button (Gtk::Stock::YES, Gtk::RESPONSE_ACCEPT);
   tbd.set_default_response (Gtk::RESPONSE_ACCEPT);
 
-  if (dynamic_cast< Gtk::Window * > (this))
+  if (auto *ptr = dynamic_cast< Gtk::Window * > (this); ptr != nullptr)
     get_group ()->add_window (tbd);
 
   if (Gtk::RESPONSE_ACCEPT != tbd.run ())
