@@ -82,14 +82,14 @@ namespace esci {
     vector& operator*= (const T& t)
     {
       std::transform (this->begin (), this->end (), this->begin (),
-                      std::bind2nd (std::multiplies<T> (), t));
+                      std::bind (std::multiplies<T> (), std::placeholders::_1, t));
       return *this;
     }
 
     vector& operator/= (const T& t)
     {
       std::transform (this->begin (), this->end (), this->begin (),
-                      std::bind2nd (std::divides<T> (), t));
+                      std::bind (std::divides<T> (), std::placeholders::_1, t));
       return *this;
     }
 
